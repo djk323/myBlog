@@ -1,0 +1,50 @@
+baseURL = "https://your-domain.com"  # You'll update this with your domain
+languageCode = "en-us"
+title = "My Blog"
+theme = "PaperMod"
+
+# Enable emoji support
+enableEmoji = true
+
+# Pagination
+[pagination]
+  pagerSize = 5
+
+[params]
+  # Site description
+  description = "Welcome to my blog"
+  
+  # Author info
+  author = "Your Name"
+  
+  # Social media links
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/yourusername"
+  
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+
+# Menu configuration
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 20
+  
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 30
+
+# Markup configuration
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
