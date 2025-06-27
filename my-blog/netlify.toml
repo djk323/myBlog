@@ -6,6 +6,8 @@
   HUGO_VERSION = "0.147.9"
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
+  URL = "https://nobrainrot.netlify.app"
+  HUGO_BASEURL = "https://nobrainrot.netlify.app/"
 
 [context.split1]
   command = "hugo --gc --minify --enableGitInfo"
@@ -18,13 +20,13 @@
   command = "hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.134.3"
+  HUGO_VERSION = "0.147.9"
 
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.134.3"
+  HUGO_VERSION = "0.147.9"
 
 [[headers]]
   for = "/*"

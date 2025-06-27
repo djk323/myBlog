@@ -3,10 +3,13 @@ languageCode = "en-us"
 title = "My Blog"
 theme = "PaperMod"
 
+# Force production URLs
+canonifyURLs = true
+relativeURLs = false
+
 # Enable emoji support
 enableEmoji = true
 
-# Pagination
 [pagination]
   pagerSize = 5
 
@@ -17,16 +20,12 @@ enableEmoji = true
   # Author info
   author = "Your Name"
   
-  # Social media links
-  [[params.socialIcons]]
-    name = "twitter"
-    url = "https://twitter.com/yourusername"
+  # PaperMod specific settings
+  env = "production"
   
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/yourusername"
-
-# Menu configuration
+  # Force canonical URLs
+  canonifyURLs = true
+  
 [menu]
   [[menu.main]]
     name = "Home"
@@ -43,7 +42,6 @@ enableEmoji = true
     url = "/about/"
     weight = 30
 
-# Markup configuration
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
