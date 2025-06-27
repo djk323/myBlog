@@ -1,7 +1,7 @@
 baseURL = "https://nobrainrot.netlify.app"
 languageCode = "en-us"
 title = "My Blog"
-theme = ["PaperMod"]
+theme = "PaperMod"
 
 # Prevent localhost URLs in production
 canonifyURLs = true
