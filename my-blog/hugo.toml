@@ -1,11 +1,7 @@
-baseURL = "https://nobrainrot.netlify.app"
+baseURL = "https://nobrainrot.netlify.app/"
 languageCode = "en-us"
 title = "My Blog"
 theme = "PaperMod"
-
-# Prevent localhost URLs in production
-canonifyURLs = true
-relativeURLs = false
 
 # Enable emoji support
 enableEmoji = true
