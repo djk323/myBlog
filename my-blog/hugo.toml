@@ -1,4 +1,4 @@
-baseURL = "https://your-domain.com"  # You'll update this with your domain
+baseURL = "nobrainrot.netlify.app"  # You'll update this with your domain
 languageCode = "en-us"
 title = "My Blog"
 theme = "PaperMod"
