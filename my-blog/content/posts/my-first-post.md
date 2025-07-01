@@ -1,24 +1,24 @@
 ---
-title: "Welcome to My Blog!"
+title: Welcome to My Blog!
 date: 2024-06-27T10:00:00-05:00
 draft: false
-tags: ["welcome", "introduction"]
-categories: ["general"]
-description: "My first blog post introducing myself and this site"
+tags:
+  - welcome
+  - introduction
+categories:
+  - general
+description: My first blog post introducing myself and this site
 ---
-
-# Welcome to My Blog!
-
 Hello and welcome to my new blog! I'm excited to share my thoughts, experiences, and insights with you.
 
 ## What You Can Expect
 
 On this blog, I'll be writing about:
 
-- Technology and programming
-- Personal experiences and lessons learned
-- Tips and tutorials
-- Book reviews and recommendations
+* Technology and programming
+* Personal experiences and lessons learned
+* Tips and tutorials
+* Book reviews and recommendations
 
 ## About Me
 
