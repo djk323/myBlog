@@ -1,14 +1,14 @@
 backend:
   name: git-gateway
-  branch: main  # Change to 'master' if that's your default branch
+  branch: main
 
-media_folder: "static/images/uploads"
+media_folder: "my-blog/static/images/uploads"  # Updated path
 public_folder: "/images/uploads"
 
 collections:
   - name: "blog"
     label: "Blog Posts"
-    folder: "myBlog/my-blog/content/posts"  # Adjust this path to match your Hugo structure
+    folder: "my-blog/content/posts"  # Full path from repo root
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
