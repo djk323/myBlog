@@ -1,8 +1,8 @@
 ---
 title: The brain rot is SPREADING!
-date: 2025-07-01T17:38:00.000Z
+date: 2025-07-01T17:40:00.000Z
 draft: false
-image: ""
+image: /images/uploads/gemini_generated_image_chb7j9chb7j9chb7.png
 ---
 #### The Brainrot Paradox: When AI Writes What You Can't
 
