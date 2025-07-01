@@ -8,7 +8,7 @@ public_folder: "/images/uploads"
 collections:
   - name: "blog"
     label: "Blog Posts"
-    folder: "my-blog/content/posts"  # Adjust this path to match your Hugo structure
+    folder: "myBlog/my-blog/content/posts"  # Adjust this path to match your Hugo structure
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
