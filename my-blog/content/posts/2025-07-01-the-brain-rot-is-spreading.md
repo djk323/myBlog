@@ -1,6 +1,6 @@
 ---
 title: The brain rot is SPREADING
-date: 2025-07-01T16:30:00.000Z
+date: 2025-07-01T17:37:00.000Z
 draft: false
 image: /images/uploads/gemini_generated_image_chb7j9chb7j9chb7.png
 ---
