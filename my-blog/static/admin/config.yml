@@ -17,7 +17,22 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-    
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Categories", name: "categories", widget: "list", required: false}
+      - {label: "Author", name: "author", widget: "string", required: false}
+      - label: "Cover Image"
+        name: "cover"
+        widget: "object"
+        required: false
+        fields:
+          - {label: "Image", name: "image", widget: "image", required: false}
+          - {label: "Alt Text", name: "alt", widget: "string", required: false}
+          - {label: "Caption", name: "caption", widget: "string", required: false}
+          - {label: "Hidden", name: "hidden", widget: "boolean", default: false, required: false}
+          - {label: "Hide in List", name: "hiddenInList", widget: "boolean", default: false, required: false}
+          - {label: "Hide in Single", name: "hiddenInSingle", widget: "boolean", default: false, required: false}
+          - {label: "Relative", name: "relative", widget: "boolean", default: false, required: false}
+          - {label: "Responsive Images", name: "responsiveImages", widget: "boolean", default: false, required: false}
           
           
           
