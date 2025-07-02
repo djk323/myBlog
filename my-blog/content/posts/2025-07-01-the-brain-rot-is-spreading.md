@@ -7,6 +7,9 @@ cover:
   image: images/uploads/gemini_generated_image_chb7j9chb7j9chb7.png
   alt: ""
   caption: ""
+  hiddenInSingle: false
+  hiddenInList: true
+  responsiveImages: true
 ---
 #### The Brainrot Paradox: When AI Writes What You Can't
 
